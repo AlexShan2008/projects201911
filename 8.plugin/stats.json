@@ -1,0 +1,386 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.41.2",
+  "hash": "6edcd91bb3f2de632bab",
+  "time": 102,
+  "builtAt": 1576401859650,
+  "publicPath": "",
+  "outputPath": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.6edcd91bb3f2de632bab.js",
+      "main.6edcd91bb3f2de632bab.js.map"
+    ],
+    "title": [
+      "title.6edcd91bb3f2de632bab.js",
+      "title.6edcd91bb3f2de632bab.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "main.6edcd91bb3f2de632bab.js",
+      "size": 8781,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "main.6edcd91bb3f2de632bab.js.map",
+      "size": 8658,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "title.6edcd91bb3f2de632bab.js",
+      "size": 345,
+      "chunks": [
+        "title"
+      ],
+      "chunkNames": [
+        "title"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "title.6edcd91bb3f2de632bab.js.map",
+      "size": 196,
+      "chunks": [
+        "title"
+      ],
+      "chunkNames": [
+        "title"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.6edcd91bb3f2de632bab.js",
+        "main.6edcd91bb3f2de632bab.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.6edcd91bb3f2de632bab.js",
+        "main.6edcd91bb3f2de632bab.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "title": {
+      "chunks": [
+        "title"
+      ],
+      "assets": [
+        "title.6edcd91bb3f2de632bab.js",
+        "title.6edcd91bb3f2de632bab.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 130,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.6edcd91bb3f2de632bab.js",
+        "main.6edcd91bb3f2de632bab.js.map"
+      ],
+      "hash": "ebfc586b90afb6645f35",
+      "siblings": [],
+      "parents": [],
+      "children": [
+        "title"
+      ],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 130,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 27,
+            "building": 18
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/index.js",
+              "loc": "main"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "console.log('hello');\r\n\r\nimport(/* webpackChunkName: \"title\" */'./title').then(result => {\r\n    console.log(result.default);\r\n});;"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": "title",
+      "rendered": true,
+      "initial": false,
+      "entry": false,
+      "size": 25,
+      "names": [
+        "title"
+      ],
+      "files": [
+        "title.6edcd91bb3f2de632bab.js",
+        "title.6edcd91bb3f2de632bab.js.map"
+      ],
+      "hash": "c7988cae6ead5845cd66",
+      "siblings": [],
+      "parents": [
+        "main"
+      ],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/title.js",
+          "identifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\title.js",
+          "name": "./src/title.js",
+          "index": 1,
+          "index2": 1,
+          "size": 25,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "title"
+          ],
+          "issuer": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+          "issuerId": "./src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "id": "./src/index.js",
+              "identifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+              "name": "./src/index.js",
+              "profile": {
+                "factory": 27,
+                "building": 18
+              }
+            }
+          ],
+          "profile": {
+            "factory": 4,
+            "building": 1
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "./src/index.js",
+              "moduleIdentifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "import()",
+              "userRequest": "./title",
+              "loc": "3:0-48"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "module.exports = 'title';"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": "./src/index.js",
+          "module": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+          "moduleIdentifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+          "moduleName": "./src/index.js",
+          "loc": "3:0-48",
+          "request": "./title",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/index.js",
+      "identifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 130,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 27,
+        "building": 18
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/index.js",
+          "loc": "main"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "console.log('hello');\r\n\r\nimport(/* webpackChunkName: \"title\" */'./title').then(result => {\r\n    console.log(result.default);\r\n});;"
+    },
+    {
+      "id": "./src/title.js",
+      "identifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\title.js",
+      "name": "./src/title.js",
+      "index": 1,
+      "index2": 1,
+      "size": 25,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "title"
+      ],
+      "issuer": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+      "issuerId": "./src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "id": "./src/index.js",
+          "identifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 27,
+            "building": 18
+          }
+        }
+      ],
+      "profile": {
+        "factory": 4,
+        "building": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "./src/index.js",
+          "moduleIdentifier": "C:\\vipdata\\lesson\\201911projects\\8.plugin\\src\\index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "import()",
+          "userRequest": "./title",
+          "loc": "3:0-48"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "module.exports = 'title';"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}

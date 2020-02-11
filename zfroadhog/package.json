@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "cross-spawn": "^7.0.1",
+    "webpack": "^4.41.5"
+  },
+  "bin": {
+    "zfroadhog": "./bin/roadhog.js"
+  },
+  "name": "zfroadhog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cross-spawn": "^7.0.1"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

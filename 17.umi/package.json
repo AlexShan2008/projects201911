@@ -1,0 +1,14 @@
+{
+  "name": "17.umi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "test": "umi test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
